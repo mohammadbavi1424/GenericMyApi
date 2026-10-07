@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NuGetAudit>false</NuGetAudit>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="11.0.2" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="ElmahCore" Version="2.1.2" />
+    <PackageReference Include="ElmahCore.Sql" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="10.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="2.3.11" />
+    <PackageReference Include="Microsoft.AspNetCore.HttpsPolicy" Version="2.3.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.3.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="NLog" Version="6.1.4" />
+    <PackageReference Include="NLog.Database" Version="6.0.3" />
+    <!--<PackageReference Include="NLog.Targets.Sentry2" Version="1.3.6" />-->
+    <PackageReference Include="NLog.Targets.Sentry3" Version="4.0.35" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Polly.Core" Version="8.7.0" />
+    <PackageReference Include="Sentry.AspNetCore" Version="6.7.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="9.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="8.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="8.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters.Abstractions" Version="8.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="8.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="8.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="8.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="8.1.4" />
+    <PackageReference Include="Swashbuckle.Core" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Services\Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Swagger\" />
+  </ItemGroup>
+
+</Project>

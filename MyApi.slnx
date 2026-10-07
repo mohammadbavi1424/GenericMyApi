@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Common/Common.csproj" />
+  <Project Path="Data/Data.csproj" />
+  <Project Path="Entities/Entities.csproj" />
+  <Project Path="MyApi/MyApi.csproj" />
+  <Project Path="Services/Services.csproj" />
+  <Project Path="WebFramwork/WebFramework.csproj" />
+</Solution>
