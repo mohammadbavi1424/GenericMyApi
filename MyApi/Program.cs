@@ -13,8 +13,6 @@ namespace MyApi
     {
         public static async Task Main(string[] args)
         {
-
-
             //Set deafult proxy
             //WebRequest.DefaultWebProxy = new WebProxy("http://127.0.0.1:8118", true) { UseDefaultCredentials = true };
 
@@ -22,7 +20,7 @@ namespace MyApi
             
             try
             {
-                logger.Debug("init main");
+                logger.Debug("inital main");
                 logger.Info("Starting application...");
                 //logger.Trace("");
                 var host = CreateHostBuilder(args).Build();
